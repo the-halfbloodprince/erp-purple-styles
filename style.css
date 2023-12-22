@@ -1,0 +1,152 @@
+:root {
+  --bgColor-dark: #392467;
+  --bgColor-dark-2: #711DB0;
+  --white: #efefef;
+  --black: #000;
+  --mainAccent: #6a26cd;
+}
+
+body {
+  background: var(--bgColor-dark);
+  padding: 1rem;
+}
+
+.container-fluid:nth-child(2) {
+	/*Your code should go under this comment*/
+    background: var(--bgColor-dark);
+}
+.navbar-responsive-collapse {
+	/*Your code should go under this comment*/
+    background: var(--bgColor-dark);
+  border: transparent;
+  outline: transparent;
+}
+
+.navbar {
+  border: none;
+}
+
+.navbar-responsive-collapse {
+	/*Your code should go under this comment*/
+}
+.navbar li {
+	/*Your code should go under this comment*/
+	color: var(--white) !important;
+}
+#moduleUL > li > a {
+	/*Your code should go under this comment*/
+	color: var(--white) !important;
+  font-weight: 400 !important;
+}
+.row .panel {
+	/*Your code should go under this comment*/
+	  background: var(--bgColor-dark-2);
+  border: none;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-4, .col-md-6 {
+	/*Your code should go under this comment*/
+	  background: var(--white) !important;
+  color: var(--black) !important;
+  border: none !important;
+}
+.col-md-1 > a, .col-md-2 > a, .col-md-3 > a, .col-md-4 > a, .col-md-5 > a, .col-md-6 > a {
+	/*Your code should go under this comment*/
+  color: var(--black);
+}
+.row .panel-heading {
+	/*Your code should go under this comment*/
+	background: var(--mainAccent);
+  border: none;
+  color: var(--white);
+}
+
+.navbar-inverse-collapse:nth-child(2) {
+  border-radius: 25px;
+	background: var(--mainAccent);
+}
+
+.navbar-collapse:nth-child(1) {
+	/*Your code should go under this comment*/
+  background: var(--mainAccent);
+}
+.col-lg-8, .breadcrumb, .well {
+	/*Your code should go under this comment*/
+  background: var(--white);
+  border: none !important;
+  oyline: transparent !important;
+}
+.navbar-inverse .navbar-brand {
+	/*Your code should go under this comment*/
+  display: none;
+}
+.row:nth-child(1) .panel {
+	/*Your code should go under this comment*/
+}
+.row .panel-body {
+	/*Your code should go under this comment*/
+  	display: flex;
+  	row-gap: 1rem;
+  padding-bottom: 10px;
+}
+.breadcrumb {
+	/*Your code should go under this comment*/
+	
+}
+.well * {
+	/*Your code should go under this comment*/
+  border: none;
+}
+
+.panel-collapse > .panel-body {
+	/*Your code should go under this comment*/
+  flex-wrap: wrap;
+  padding: 1rem;
+  border: none !important;
+}
+
+.panel-collapse > .panel-body > div {
+  width: max-content;
+  margin-right: 10px;
+}
+.panel .text-primary, .well > .text-default  {
+	/*Your code should go under this comment*/
+}
+.panel .text-primary:hover, .well > .text-default:hover {
+	/*Your code should go under this comment*/
+	color: var(--black);
+}
+.panel:nth-child(12) .text-primary {
+	/*Your code should go under this comment*/
+}
+.panel > .panel-heading {
+	/*Your code should go under this comment*/
+	color: var(--white) !important;
+}
+.breadcrumb a {
+	/*Your code should go under this comment*/
+	color: var(--black);
+  font-weight: 600;
+  text-decoration: underline;
+}
+.well > .text-default {
+	/*Your code should go under this comment*/
+  color: var(--black);
+  font-weight: 500;
+}
+.col-lg-12 {
+	/*Your code should go under this comment*/
+}
+.container-fluid:nth-child(5) .navbar-inverse {
+	/*Your code should go under this comment*/
+  background: transparent;
+}
+.breadcrumb {
+	/*Your code should go under this comment*/
+  border-radius: 20px;
+  margin-bottom: 1rem !important;
+  width: max-content;
+}
+.col-md-4 > a {
+	/*Your code should go under this comment*/
+	color: var(--black);
+}
